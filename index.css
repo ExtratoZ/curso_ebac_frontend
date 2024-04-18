@@ -1,0 +1,131 @@
+/* FORMATAÇÃO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+
+}
+
+.popup {
+    max-width: 460px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* FORMATAÇÃO CABEÇALHO */
+header {
+    background-color: #1E0342;
+    color: #FFF;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-weight: 600;
+    border-bottom: 8px solid #0E46A3;
+}
+
+header button {
+    color: #FFF;
+    background-color: #0E46A3;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px  rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+header button:hover {
+    background-color: #9AC8CD;
+    color: #1E0342;
+}
+
+/* FORMATAÇÃO FORMULARIO */
+form {
+    padding: 16px;
+    text-align: center;
+    margin-top: 16px;
+    background-color: #0E46A3;
+    border-radius: 10px;
+    display: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+form input {
+    padding: 4px;
+    font-weight: 200;
+    font-size: 18px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #9AC8CD;
+    background-color: #0E46A3;
+    outline: none;
+    transition: all ease 1s;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+form input:focus {
+    background-color: #1E0342;
+
+}
+
+::placeholder {
+    color: #FFF;
+}
+
+form button {
+    background-color: #0E46A3;
+    border: none;
+    cursor: pointer;
+    padding-left: 16px;
+}
+
+form button i {
+    color: #FFF;
+}
+
+form button i:hover {
+    color: #9AC8CD;
+}
+
+/* FORMATAÇÃO LISTA DE TAREFAS */
+h2 {
+    font-size: 36px;
+    margin: 24px 0px;
+    text-align: center;
+}
+
+ul {
+    height: 44px;
+    line-height: 44px;
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+li button {
+    border: none;
+    background-color: #9AC8CD;
+    cursor: pointer;
+}
+
+.line_through {
+    text-decoration: line-through;
+}
+
+div.container {
+    background-color: #9AC8CD;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    width: 560px;
+    height: 560px;
+    margin: 0 auto;
+}
