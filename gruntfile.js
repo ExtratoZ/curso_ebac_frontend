@@ -29,7 +29,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-uglify')
 
-    grunt.registerTask('default', ['less'], ['uglify']);
+    grunt.registerTask('default', ['less', 'uglify']);
 }
 
 
