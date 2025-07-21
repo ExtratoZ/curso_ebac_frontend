@@ -1,15 +1,17 @@
 {
-  "name": "pratica-sass",
+  "name": "exe-cypress",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass": "sass source/main.scss build/style.css --watch",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "sass": "^1.79.3"
+    "cypress": "^12.6.0"
   }
 }
